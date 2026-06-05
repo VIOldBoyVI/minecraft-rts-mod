@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+.eclipse/
+*.iml
+*.ipr
+*.iws
+bin/
+
+# Forge / MDK
+run/
+logs/
+eclipse/
+
+# OS
+.DS_Store
+Thumbs.db

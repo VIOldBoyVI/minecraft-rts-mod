@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[51,)"
+license="MIT"
+
+[[dependencies.rtsmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[51.0.33,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rtsmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21,1.22)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+modId="rtsmod"
+version="1.0.0"
+displayName="Minecraft RTS Mod"
+description='''
+Real-Time Strategy mode for Minecraft.
+Select units, issue orders, conquer the world.
+'''
