@@ -5,7 +5,7 @@ import net.minecraftforge.network.SimpleChannel;
 
 public class RTSNetwork {
     public static final SimpleChannel CHANNEL = ChannelBuilder
-        .named(new net.minecraft.resources.ResourceLocation("rtsmod", "main"))
+        .named(net.minecraft.resources.ResourceLocation.fromNamespaceAndPath("rtsmod", "main"))
         .networkProtocolVersion(1)
         .simpleChannel();
 
